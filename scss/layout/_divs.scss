@@ -2,11 +2,11 @@
 // ---- divs Section Principal 
 
 div.__principal--menu {
-
 }
 
 div.menu {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 div.principal__info {
