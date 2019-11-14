@@ -36,6 +36,13 @@
 /* ----------------------
     SECTION PRINCIPAL  
 ---------------------- */
+div.__principal--menu {
+  height: 100vh;
+  background-color: #029FCA; }
+
 div.menu {
+  height: 100vh;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  clip-path: polygon(0 0, 100% 0%, 59% 100%, 0% 100%);
+  background-color: #212121; }
