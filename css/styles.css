@@ -7,6 +7,17 @@
 /* ----------------------
     BOTONES 
 ---------------------- */
+.menu_nav-info button {
+  background-color: #029FCA;
+  color: #FFFFFF;
+  padding: 0.8rem 3rem;
+  border-radius: 7rem;
+  font-family: "Montserrat", sans-serif; }
+
+.menu_nav-info button:hover {
+  background-color: #FFFFFF;
+  color: #212121; }
+
 /* ----------------------
     LINKS 
 ---------------------- */

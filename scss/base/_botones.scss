@@ -2,3 +2,16 @@
     BOTONES 
 ---------------------- */
 
+.menu_nav-info button{
+    background-color: $colorBoton;
+    color: $colorTerciario;
+    padding: $paddingtopbottom $paddingrightleft;
+    border-radius: $radius;
+    font-family: $fuentePrincipal;
+}
+
+
+.menu_nav-info button:hover {
+    background-color: $colorbotonhover;
+    color: $colorSecundario;
+}
