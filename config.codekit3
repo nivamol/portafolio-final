@@ -194,6 +194,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/_menus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_menus.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/_parrafos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_parrafos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/_titulos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_titulos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/_utilities.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -207,7 +246,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/layout.scss": {
+	"/scss/layout/_divs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -215,7 +254,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/layout.css",
+		"oAP": "/scss/layout/_divs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/layout/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/layout/_sections.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_sections.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
