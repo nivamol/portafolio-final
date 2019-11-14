@@ -1,0 +1,23 @@
+// ---- Librerias 
+
+@import "lib/mixins";
+@import "lib/variables";
+
+// ----Elementos base
+
+@import "base/botones";
+@import "base/links";
+@import "base/tipografias";
+
+
+// ---- Componentes 
+
+@import "components/grids";
+@import "components/utilities";
+
+// ---- layouts 
+
+@import "layout/layout.scss";
+
+
+

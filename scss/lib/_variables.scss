@@ -1,0 +1,28 @@
+/* ----------------------
+    Variables 
+---------------------- */
+
+//--- colores
+
+$colorPrincipal:#029FCA;
+$colorSecundario: #212121;
+$colorTerciario: #FFFFFF;
+$colorBoton: $colorPrincipal;
+$colorbotonhover: $colorTerciario;
+
+//---- Tipografías
+
+$fuentePrincipal: 'Montserrat', sans-serif; 
+$fuenteSecundaria: 'Indie Flower', cursive;
+$tamañofuenteprincipal: 16px;
+$tamañofuentebotones: 18px;
+$colorTipografia: $colorTerciario;
+$colortipohover: $colorSecundario;
+
+
+// ---- Contantes 
+
+
+$paddingtopbottom: 1.5rem; 
+$paddingrightleft: 3rem; 
+$margin: 0;
