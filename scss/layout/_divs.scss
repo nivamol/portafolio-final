@@ -9,7 +9,7 @@ div.__principal--menu {
 div.menu {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     clip-path: polygon(0 0, 100% 0%, 59% 100%, 0% 100%);
     background-color: $colorSecundario;
 
@@ -17,7 +17,8 @@ div.menu {
 
 div.principal__info { 
     position: absolute;
-    top: 50%;
+    top: 30%;
+    left: 20%;
     box-sizing: border-box;
     
 }

@@ -2,16 +2,19 @@
     BOTONES 
 ---------------------- */
 
-.menu_nav-info button{
+.info__principal button{
+    margin-top: 46px;
     background-color: $colorBoton;
     color: $colorTerciario;
     padding: $paddingtopbottom $paddingrightleft;
     border-radius: $radius;
     font-family: $fuentePrincipal;
+    border: none;
 }
 
 
-.menu_nav-info button:hover {
+.info__principal button:hover {
     background-color: $colorbotonhover;
     color: $colorSecundario;
+    transition: .5s;
 }

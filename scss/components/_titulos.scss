@@ -1,9 +1,35 @@
 .menu--logo h2 {
+    color: $colorPrincipal;
+    font-size: 46px;
+    font-family: $fuenteSecundaria;
+    color: $colorTerciario;
+    margin: $margin;
     
 }
 
-.info__principal h1 {
+.menu--logo h2::after {
+    content: 'code';
+    color: $colorPrincipal;
+}
 
+.info__principal h1 {
+    font-family: $fuentePrincipal;
+    font-size: $tamañofuenteprincipal;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: $margin;
+}
+
+.info__principal h1 span {
+    font-family: $fuenteSecundaria;
+    font-style: italic;
+}
+
+.info__principal h1::after {
+    content: 'code';
+    color: $colorPrincipal;
+    font-family: $fuenteSecundaria;
+    font-style: italic;
 }
 
 
