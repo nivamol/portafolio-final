@@ -21,6 +21,7 @@
   color: #212121;
   transition: .5s; }
 
+/* ---- Section aboutme * ---- */
 /* ----------------------
     LINKS 
 ---------------------- */
@@ -33,6 +34,9 @@
 /* ----------------------
     UTILITIES 
 ---------------------- */
+h2, h1, h3 {
+  margin: 0; }
+
 .menu--logo h2 {
   color: #029FCA;
   font-size: 46px;
@@ -61,6 +65,7 @@
   font-family: "Indie Flower", cursive;
   font-style: italic; }
 
+/* ---- section aboutme ---- */
 nav ul {
   display: flex;
   font-family: "Montserrat", sans-serif; }
@@ -91,6 +96,11 @@ li a:hover {
 /* ----------------------
     SECTION PRINCIPAL  
 ---------------------- */
+section.aboutme {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #212121; }
+
 div.__principal--menu {
   height: 100vh;
   background-color: #029FCA; }
@@ -107,3 +117,5 @@ div.principal__info {
   top: 30%;
   left: 20%;
   box-sizing: border-box; }
+
+/* ---- Section Aboutme ---- */

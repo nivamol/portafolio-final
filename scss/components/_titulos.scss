@@ -1,3 +1,7 @@
+h2, h1, h3 {
+    margin: $margin;
+}
+
 .menu--logo h2 {
     color: $colorPrincipal;
     font-size: 46px;
@@ -32,5 +36,13 @@
     font-style: italic;
 }
 
+/* ---- section aboutme ---- */
 
+.aboutme__description h1 {
+
+}
+
+.description--technologies h2 {
+
+}
 
