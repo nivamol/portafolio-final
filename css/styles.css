@@ -66,6 +66,13 @@ h2, h1, h3 {
   font-style: italic; }
 
 /* ---- section aboutme ---- */
+.aboutme__description h1 {
+  color: #029FCA;
+  font-family: "Indie Flower", cursive;
+  font-size: 54px;
+  padding-top: 5.8rem;
+  font-style: italic; }
+
 nav ul {
   display: flex;
   font-family: "Montserrat", sans-serif; }
@@ -89,6 +96,12 @@ li a:hover {
 .info__principal p::after {
   content: ' Developer';
   color: #FFFFFF; }
+
+/* ---- section aboutme ---- */
+.aboutme__description p {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  line-height: 1.8; }
 
 /* ----------------------
     LAYOUT  
@@ -119,3 +132,6 @@ div.principal__info {
   box-sizing: border-box; }
 
 /* ---- Section Aboutme ---- */
+div.aboutme__description {
+  text-align: center;
+  padding: 0 8rem; }

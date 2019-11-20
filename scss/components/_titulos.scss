@@ -39,7 +39,11 @@ h2, h1, h3 {
 /* ---- section aboutme ---- */
 
 .aboutme__description h1 {
-
+    color: $colorPrincipal;
+    font-family: $fuenteSecundaria;
+    font-size: $tamañofuenteprincipal - 10px;
+    padding-top: $paddingtopbottom + 5rem;
+    font-style: italic;
 }
 
 .description--technologies h2 {
