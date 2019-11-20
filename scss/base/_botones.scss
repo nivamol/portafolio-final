@@ -2,7 +2,7 @@
     BOTONES 
 ---------------------- */
 
-.info__principal button{
+button{
     margin-top: 46px;
     background-color: $colorBoton;
     color: $colorTerciario;
@@ -10,17 +10,24 @@
     border-radius: $radius;
     font-family: $fuentePrincipal;
     border: none;
+    cursor: pointer;
+    outline: none;
 }
 
 
-.info__principal button:hover {
+button:hover {
     background-color: $colorbotonhover;
     color: $colorSecundario;
     transition: .5s;
 }
 
-/* ---- Section aboutme * ---- */
+// ---- boton aboutme 
 
-.description--botones button {
-    
-} 
+button.description--boton {
+    margin: $margintop + 5em 0;
+    color: $colorSecundario;
+}
+
+button.description--boton span::after {
+    content: ' ';
+}
