@@ -14,10 +14,17 @@
 
 @import "components/grids";
 @import "components/utilities";
+@import "components/titulos";
+@import "components/menus";
+@import "components/parrafos";
+
+
 
 // ---- layouts 
 
 @import "layout/layout.scss";
+@import "layout/sections";
+@import "layout/divs";
 
 
 

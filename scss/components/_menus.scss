@@ -1,0 +1,24 @@
+nav {
+    
+}
+
+nav ul {
+    display: flex;
+    font-family: $fuentePrincipal;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: $colorbotonhover;
+}
+
+li a:hover {
+    color: $colorPrincipal;
+    transition: .3s;
+}
+

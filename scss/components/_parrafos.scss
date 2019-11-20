@@ -1,0 +1,11 @@
+.info__principal p {
+    font-family: $fuentePrincipal;
+    color: $colorPrincipal;
+
+
+}
+
+.info__principal p::after {
+    content: ' Developer';
+    color: $colorTerciario;
+}
