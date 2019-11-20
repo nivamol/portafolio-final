@@ -73,6 +73,13 @@ h2, h1, h3 {
   padding-top: 5.8rem;
   font-style: italic; }
 
+.description--technologies h2 {
+  font-family: "Indie Flower", cursive;
+  font-style: italic;
+  font-size: 54px;
+  color: #029FCA;
+  margin-top: 1em; }
+
 nav ul {
   display: flex;
   font-family: "Montserrat", sans-serif; }

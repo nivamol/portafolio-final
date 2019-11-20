@@ -47,6 +47,10 @@ h2, h1, h3 {
 }
 
 .description--technologies h2 {
-
+    font-family: $fuenteSecundaria;
+    font-style: italic;
+    font-size: $tamañofuenteprincipal - 10px;
+    color: $colorPrincipal;
+    margin-top: $margintop;
 }
 
