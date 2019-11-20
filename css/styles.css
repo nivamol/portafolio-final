@@ -7,19 +7,28 @@
 /* ----------------------
     BOTONES 
 ---------------------- */
-.info__principal button {
+button {
   margin-top: 46px;
   background-color: #029FCA;
   color: #FFFFFF;
   padding: 0.8rem 3rem;
   border-radius: 7rem;
   font-family: "Montserrat", sans-serif;
-  border: none; }
+  border: none;
+  cursor: pointer;
+  outline: none; }
 
-.info__principal button:hover {
+button:hover {
   background-color: #FFFFFF;
   color: #212121;
   transition: .5s; }
+
+button.description--boton {
+  margin: 6em 0;
+  color: #212121; }
+
+button.description--boton span::after {
+  content: ' '; }
 
 /* ----------------------
     LINKS 
@@ -28,11 +37,22 @@
     TIPOGRAFIAS
 ---------------------- */
 /* ----------------------
+    ICONOS
+---------------------- */
+span.icons {
+  font-size: 124px;
+  color: #FFFFFF;
+  font-weight: lighter; }
+
+/* ----------------------
     GRIDS 
 ---------------------- */
 /* ----------------------
     UTILITIES 
 ---------------------- */
+h2, h1, h3 {
+  margin: 0; }
+
 .menu--logo h2 {
   color: #029FCA;
   font-size: 46px;
@@ -61,6 +81,21 @@
   font-family: "Indie Flower", cursive;
   font-style: italic; }
 
+/* ---- section aboutme ---- */
+.aboutme__description h1 {
+  color: #029FCA;
+  font-family: "Indie Flower", cursive;
+  font-size: 54px;
+  padding-top: 5.8rem;
+  font-style: italic; }
+
+.description--technologies h2 {
+  font-family: "Indie Flower", cursive;
+  font-style: italic;
+  font-size: 54px;
+  color: #029FCA;
+  margin-top: 1em; }
+
 nav ul {
   display: flex;
   font-family: "Montserrat", sans-serif; }
@@ -77,6 +112,9 @@ li a:hover {
   color: #029FCA;
   transition: .3s; }
 
+/* ----------------------
+    PARRAFOS 
+---------------------- */
 .info__principal p {
   font-family: "Montserrat", sans-serif;
   color: #029FCA; }
@@ -85,11 +123,25 @@ li a:hover {
   content: ' Developer';
   color: #FFFFFF; }
 
+/* ---- section aboutme ---- */
+.aboutme__description p {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  line-height: 1.8; }
+
 /* ----------------------
     LAYOUT  
 ---------------------- */
 /* ----------------------
-    SECTION PRINCIPAL  
+    SECCIONES  
+---------------------- */
+section.aboutme {
+  height: auto;
+  box-sizing: border-box;
+  background-color: #212121; }
+
+/* ----------------------
+    DIVISIONES
 ---------------------- */
 div.__principal--menu {
   height: 100vh;
@@ -107,3 +159,13 @@ div.principal__info {
   top: 30%;
   left: 20%;
   box-sizing: border-box; }
+
+/* ---- Section Aboutme ---- */
+div.aboutme__description {
+  text-align: center;
+  padding: 0 8rem; }
+
+div.description--iconos {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-around; }

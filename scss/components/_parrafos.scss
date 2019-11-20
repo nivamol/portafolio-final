@@ -1,3 +1,8 @@
+/* ----------------------
+    PARRAFOS 
+---------------------- */
+
+
 .info__principal p {
     font-family: $fuentePrincipal;
     color: $colorPrincipal;
@@ -8,4 +13,16 @@
 .info__principal p::after {
     content: ' Developer';
     color: $colorTerciario;
+}
+
+/* ---- section aboutme ---- */
+
+.aboutme__description p {
+    font-family: $fuentePrincipal;
+    color: $colorTerciario;
+    line-height: 1.8;
+}
+
+.description--technologies p {
+
 }
