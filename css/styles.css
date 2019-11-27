@@ -220,3 +220,116 @@ div.projects {
 div.description {
   padding: 0 2em;
 }
+
+/* ---- footer ---- */ 
+
+footer {
+  width: 100vw;
+  text-align: center;
+  background-color: #212121;
+}
+
+footer h3 {
+  color: #029FCA;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  font-size: 3em;
+  font-family: "Indie Flower", cursive;
+}
+
+form div.nombre,
+form div.mensaje,
+form div.asunto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form div.asunto input::placeholder {
+  padding: 1em;
+  font-family: 'Muli', sans-serif;
+}
+
+
+form div.nombre input.input-1,
+form div.nombre input.input-2 {
+  flex: 0 0 calc(50% - 10rem);
+  margin: 0 1em 2em;
+  height: 3em;
+  border: 0;
+  border-radius: 10px;
+}
+
+form div.nombre input.input-1::placeholder,
+form div.nombre input.input-2::placeholder {
+  font-family: 'Muli', sans-serif;
+  padding-left: 1em;
+} 
+
+form div.asunto input::placeholder {
+  padding-left: .2em;
+  font-family: 'Muli', sans-serif;
+}
+
+form div.asunto input {
+  padding: 1em;
+  flex: 0 0 78%;
+  margin-bottom: 2em;
+}
+
+form div.mensaje textarea::placeholder {
+  padding: 1em;
+  font-family: 'Muli', sans-serif;
+}
+
+
+div.inputs textarea,
+div.inputs input {
+  background-color: #272727;
+  border: 0;
+  flex: 0 0 80%;
+  border-radius: 10px;
+  outline: none;
+}
+
+div.inputs::placeholder {
+  color: #555555;
+}
+
+div.botones {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+div.botones button {
+  margin: 0 1em;
+  height: 73px;
+  padding: 0 2.2em;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+}
+
+div.botones button:nth-child(1) {
+  background-color: #029FCA;
+  color: white;
+}
+
+div.botones button:nth-child(2) {
+  background-color: #272727;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  padding-bottom: 2em;
+}
+
+footer p a {
+  color: #029FCA;
+  font-family: 'Abel', sans-serif;
+}
