@@ -30,6 +30,10 @@ button.description--boton {
 button.description--boton span::after {
   content: ' '; }
 
+.description button {
+  margin: 0;
+}
+
 /* ----------------------
     LINKS 
 ---------------------- */
@@ -39,6 +43,15 @@ button.description--boton span::after {
 /* ----------------------
     ICONOS
 ---------------------- */
+/* ----------------------
+    IMAGENES
+---------------------- */
+
+.projects img {
+  height: 300px;
+  width: 600px;
+  padding: 1em;
+}
 span.icons {
   font-size: 124px;
   color: #FFFFFF;
@@ -112,6 +125,16 @@ li a:hover {
   color: #029FCA;
   transition: .3s; }
 
+  /* ---- portafolio */
+  
+  .description h3 {
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5em;
+    padding-top: 1em;
+    color: #029FCA;
+  }
+
+
 /* ----------------------
     PARRAFOS 
 ---------------------- */
@@ -129,6 +152,16 @@ li a:hover {
   color: #FFFFFF;
   line-height: 1.8; }
 
+.projects p {
+  height: 20vh;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+/* section portafolio */
+
+
 /* ----------------------
     LAYOUT  
 ---------------------- */
@@ -139,6 +172,10 @@ section.aboutme {
   height: auto;
   box-sizing: border-box;
   background-color: #212121; }
+
+  section.portafolio {
+  }
+
 
 /* ----------------------
     DIVISIONES
@@ -169,3 +206,17 @@ div.description--iconos {
   margin-top: 4em;
   display: flex;
   justify-content: space-around; }
+ 
+
+/*---- section  portafolio ----*/ 
+
+div.projects {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  justify-items: center;
+  background-color: #212121;}
+
+
+div.description {
+  padding: 0 2em;
+}
