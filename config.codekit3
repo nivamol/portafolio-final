@@ -106,6 +106,39 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/images/img1.jpeg": {
+		"ft": 16384,
+		"iS": 282309,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/img1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/img2.jpeg": {
+		"ft": 16384,
+		"iS": 772190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/img2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/img3.jpeg": {
+		"ft": 16384,
+		"iS": 3593113,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/img3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/css/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -113,6 +146,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/normalize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/styles-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -156,6 +199,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/base/_iconos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/base/_imagenes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/base/_imagenes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -315,6 +371,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/scss/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/styles-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/scss/styles.scss": {
 		"aP": 0,
