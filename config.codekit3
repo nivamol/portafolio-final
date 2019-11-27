@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
 	"/assets/icomoon/demo-files/demo.css": {
 		"aP": 1,
 		"bl": 0,
@@ -159,24 +151,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
 	"/scss/base/_botones.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -268,19 +242,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_parrafos.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/components/_parrafos.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/components/_titulos.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -307,19 +268,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_divs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/layout/_divs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/layout/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -329,19 +277,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/layout/_layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/layout/_sections.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/layout/_sections.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -359,19 +294,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/lib/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/lib/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -381,19 +303,6 @@
 		"oAP": "/scss/styles-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [

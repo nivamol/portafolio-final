@@ -3,12 +3,19 @@
 @import "lib/mixins";
 @import "lib/variables";
 
+// ---- layouts 
+
+@import "layout/layout";
+@import "layout/sections";
+@import "layout/divs";
+
 // ----Elementos base
 
 @import "base/botones";
 @import "base/links";
 @import "base/tipografias";
 @import "base/iconos";
+@import "base/imagenes";
 
 
 // ---- Componentes 
@@ -19,13 +26,6 @@
 @import "components/menus";
 @import "components/parrafos";
 
-
-
-// ---- layouts 
-
-@import "layout/layout.scss";
-@import "layout/sections";
-@import "layout/divs";
 
 
 
